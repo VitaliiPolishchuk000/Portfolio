@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8E92A0ACCA922BB6B5B4578 /* Pods_HomeWork_11_2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4135C5BA0DFD6ACAD977A44F /* Pods_HomeWork_11_2.framework */; };
+		FAB0CAC6248BCCF300948D65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB0CAC5248BCCF300948D65 /* AppDelegate.swift */; };
+		FAB0CAC8248BCCF300948D65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB0CAC7248BCCF300948D65 /* SceneDelegate.swift */; };
+		FAB0CACA248BCCF300948D65 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB0CAC9248BCCF300948D65 /* MainVC.swift */; };
+		FAB0CACD248BCCF300948D65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB0CACB248BCCF300948D65 /* Main.storyboard */; };
+		FAB0CAD0248BCCF300948D65 /* HomeWork_11_2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAB0CACE248BCCF300948D65 /* HomeWork_11_2.xcdatamodeld */; };
+		FAB0CAD2248BCCF800948D65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB0CAD1248BCCF800948D65 /* Assets.xcassets */; };
+		FAB0CAD5248BCCF800948D65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB0CAD3248BCCF800948D65 /* LaunchScreen.storyboard */; };
+		FAB0CAE3248BD49800948D65 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB0CAE2248BD49800948D65 /* SignUpVC.swift */; };
+		FAB0CAE5248BD4B100948D65 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB0CAE4248BD4B100948D65 /* SignInVC.swift */; };
+		FAB0CAE7248BD51900948D65 /* ForgotPassVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB0CAE6248BD51900948D65 /* ForgotPassVC.swift */; };
+		FAB0CAE9248BD61E00948D65 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB0CAE8248BD61E00948D65 /* Utils.swift */; };
+		FAB0CAEB248BDE5300948D65 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB0CAEA248BDE5300948D65 /* Constants.swift */; };
+		FAB0CAEE248BE0C900948D65 /* FirebaseAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB0CAED248BE0C900948D65 /* FirebaseAuthManager.swift */; };
+		FAB0CAF0248BE60E00948D65 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAB0CAEF248BE60E00948D65 /* GoogleService-Info.plist */; };
+		FAB0CAF2248FA25C00948D65 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB0CAF1248FA25C00948D65 /* NetworkManager.swift */; };
+		FAB0CAF4248FA49B00948D65 /* TeamsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB0CAF3248FA49B00948D65 /* TeamsData.swift */; };
+		FAB0CAF6248FA62600948D65 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB0CAF5248FA62600948D65 /* Team.swift */; };
+		FAB0CAF9248FBB2500948D65 /* TeamsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB0CAF7248FBB2500948D65 /* TeamsTableViewCell.swift */; };
+		FAB0CAFA248FBB2500948D65 /* TeamsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB0CAF8248FBB2500948D65 /* TeamsTableViewCell.xib */; };
+		FAB0CAFC248FCEEE00948D65 /* StatisticData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB0CAFB248FCEEE00948D65 /* StatisticData.swift */; };
+		FAB0CAFE248FCEFB00948D65 /* Statistic.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB0CAFD248FCEFB00948D65 /* Statistic.swift */; };
+		FAB0CB0224924D6500948D65 /* TeamInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB0CB0124924D6500948D65 /* TeamInfoVC.swift */; };
+		FAB0CB0424924E2A00948D65 /* TeamStatisticVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB0CB0324924E2A00948D65 /* TeamStatisticVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4135C5BA0DFD6ACAD977A44F /* Pods_HomeWork_11_2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HomeWork_11_2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BA7611722D875699DD2FE77 /* Pods-HomeWork 11.2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeWork 11.2.release.xcconfig"; path = "Target Support Files/Pods-HomeWork 11.2/Pods-HomeWork 11.2.release.xcconfig"; sourceTree = "<group>"; };
+		B5509D0031B07BBA10B02EB2 /* Pods-HomeWork 11.2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeWork 11.2.debug.xcconfig"; path = "Target Support Files/Pods-HomeWork 11.2/Pods-HomeWork 11.2.debug.xcconfig"; sourceTree = "<group>"; };
+		FAB0CAC2248BCCF300948D65 /* HomeWork 11.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HomeWork 11.2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB0CAC5248BCCF300948D65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAB0CAC7248BCCF300948D65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FAB0CAC9248BCCF300948D65 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		FAB0CACC248BCCF300948D65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAB0CACF248BCCF300948D65 /* HomeWork_11_2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HomeWork_11_2.xcdatamodel; sourceTree = "<group>"; };
+		FAB0CAD1248BCCF800948D65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAB0CAD4248BCCF800948D65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAB0CAD6248BCCF800948D65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAB0CAE2248BD49800948D65 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		FAB0CAE4248BD4B100948D65 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		FAB0CAE6248BD51900948D65 /* ForgotPassVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassVC.swift; sourceTree = "<group>"; };
+		FAB0CAE8248BD61E00948D65 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		FAB0CAEA248BDE5300948D65 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FAB0CAED248BE0C900948D65 /* FirebaseAuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthManager.swift; sourceTree = "<group>"; };
+		FAB0CAEF248BE60E00948D65 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FAB0CAF1248FA25C00948D65 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		FAB0CAF3248FA49B00948D65 /* TeamsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsData.swift; sourceTree = "<group>"; };
+		FAB0CAF5248FA62600948D65 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		FAB0CAF7248FBB2500948D65 /* TeamsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TeamsTableViewCell.swift; path = ../Storyboards/TeamsTableViewCell.swift; sourceTree = "<group>"; };
+		FAB0CAF8248FBB2500948D65 /* TeamsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TeamsTableViewCell.xib; path = ../Storyboards/TeamsTableViewCell.xib; sourceTree = "<group>"; };
+		FAB0CAFB248FCEEE00948D65 /* StatisticData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticData.swift; sourceTree = "<group>"; };
+		FAB0CAFD248FCEFB00948D65 /* Statistic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statistic.swift; sourceTree = "<group>"; };
+		FAB0CB0124924D6500948D65 /* TeamInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamInfoVC.swift; sourceTree = "<group>"; };
+		FAB0CB0324924E2A00948D65 /* TeamStatisticVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamStatisticVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAB0CABF248BCCF300948D65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8E92A0ACCA922BB6B5B4578 /* Pods_HomeWork_11_2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A5A096D7AD98CDF3942AD61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5509D0031B07BBA10B02EB2 /* Pods-HomeWork 11.2.debug.xcconfig */,
+				9BA7611722D875699DD2FE77 /* Pods-HomeWork 11.2.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		71E69585EF181AA21D328E54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4135C5BA0DFD6ACAD977A44F /* Pods_HomeWork_11_2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA004B032509163100757E9A /* CustomTableView */ = {
+			isa = PBXGroup;
+			children = (
+				FAB0CAF7248FBB2500948D65 /* TeamsTableViewCell.swift */,
+				FAB0CAF8248FBB2500948D65 /* TeamsTableViewCell.xib */,
+			);
+			path = CustomTableView;
+			sourceTree = "<group>";
+		};
+		FAB0CAB9248BCCF200948D65 = {
+			isa = PBXGroup;
+			children = (
+				FAB0CAC4248BCCF300948D65 /* HomeWork 11.2 */,
+				FAB0CAC3248BCCF300948D65 /* Products */,
+				1A5A096D7AD98CDF3942AD61 /* Pods */,
+				71E69585EF181AA21D328E54 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FAB0CAC3248BCCF300948D65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAB0CAC2248BCCF300948D65 /* HomeWork 11.2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAB0CAC4248BCCF300948D65 /* HomeWork 11.2 */ = {
+			isa = PBXGroup;
+			children = (
+				FA004B032509163100757E9A /* CustomTableView */,
+				FAB0CAEC248BE0A500948D65 /* Firebase */,
+				FAB0CAE0248BD45900948D65 /* Models */,
+				FAB0CADC248BD37C00948D65 /* ViewControllers */,
+				FAB0CADE248BD39900948D65 /* Storyboards */,
+				FAB0CADD248BD39000948D65 /* Delegate */,
+				FAB0CADF248BD41A00948D65 /* Sources */,
+				FAB0CAEF248BE60E00948D65 /* GoogleService-Info.plist */,
+				FAB0CAD6248BCCF800948D65 /* Info.plist */,
+				FAB0CACE248BCCF300948D65 /* HomeWork_11_2.xcdatamodeld */,
+			);
+			path = "HomeWork 11.2";
+			sourceTree = "<group>";
+		};
+		FAB0CADC248BD37C00948D65 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FAB0CAC9248BCCF300948D65 /* MainVC.swift */,
+				FAB0CB0124924D6500948D65 /* TeamInfoVC.swift */,
+				FAB0CB0324924E2A00948D65 /* TeamStatisticVC.swift */,
+				FAB0CAE4248BD4B100948D65 /* SignInVC.swift */,
+				FAB0CAE2248BD49800948D65 /* SignUpVC.swift */,
+				FAB0CAE6248BD51900948D65 /* ForgotPassVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FAB0CADD248BD39000948D65 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				FAB0CAC5248BCCF300948D65 /* AppDelegate.swift */,
+				FAB0CAC7248BCCF300948D65 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		FAB0CADE248BD39900948D65 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FAB0CACB248BCCF300948D65 /* Main.storyboard */,
+				FAB0CAD3248BCCF800948D65 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		FAB0CADF248BD41A00948D65 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FAB0CAD1248BCCF800948D65 /* Assets.xcassets */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		FAB0CAE0248BD45900948D65 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FAB0CAE8248BD61E00948D65 /* Utils.swift */,
+				FAB0CAEA248BDE5300948D65 /* Constants.swift */,
+				FAB0CAF1248FA25C00948D65 /* NetworkManager.swift */,
+				FAB0CAF3248FA49B00948D65 /* TeamsData.swift */,
+				FAB0CAF5248FA62600948D65 /* Team.swift */,
+				FAB0CAFB248FCEEE00948D65 /* StatisticData.swift */,
+				FAB0CAFD248FCEFB00948D65 /* Statistic.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FAB0CAEC248BE0A500948D65 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				FAB0CAED248BE0C900948D65 /* FirebaseAuthManager.swift */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAB0CAC1248BCCF300948D65 /* HomeWork 11.2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAB0CAD9248BCCF800948D65 /* Build configuration list for PBXNativeTarget "HomeWork 11.2" */;
+			buildPhases = (
+				32294A347CD44B227676B2F8 /* [CP] Check Pods Manifest.lock */,
+				FAB0CABE248BCCF300948D65 /* Sources */,
+				FAB0CABF248BCCF300948D65 /* Frameworks */,
+				FAB0CAC0248BCCF300948D65 /* Resources */,
+				B8D9B455DC3A23C89B34F792 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HomeWork 11.2";
+			productName = "HomeWork 11.2";
+			productReference = FAB0CAC2248BCCF300948D65 /* HomeWork 11.2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAB0CABA248BCCF200948D65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Vitalii Polishchuk";
+				TargetAttributes = {
+					FAB0CAC1248BCCF300948D65 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = FAB0CABD248BCCF200948D65 /* Build configuration list for PBXProject "HomeWork 11.2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAB0CAB9248BCCF200948D65;
+			productRefGroup = FAB0CAC3248BCCF300948D65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAB0CAC1248BCCF300948D65 /* HomeWork 11.2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAB0CAC0248BCCF300948D65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB0CAD5248BCCF800948D65 /* LaunchScreen.storyboard in Resources */,
+				FAB0CAF0248BE60E00948D65 /* GoogleService-Info.plist in Resources */,
+				FAB0CAD2248BCCF800948D65 /* Assets.xcassets in Resources */,
+				FAB0CAFA248FBB2500948D65 /* TeamsTableViewCell.xib in Resources */,
+				FAB0CACD248BCCF300948D65 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32294A347CD44B227676B2F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HomeWork 11.2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8D9B455DC3A23C89B34F792 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HomeWork 11.2/Pods-HomeWork 11.2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HomeWork 11.2/Pods-HomeWork 11.2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HomeWork 11.2/Pods-HomeWork 11.2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAB0CABE248BCCF300948D65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB0CAD0248BCCF300948D65 /* HomeWork_11_2.xcdatamodeld in Sources */,
+				FAB0CACA248BCCF300948D65 /* MainVC.swift in Sources */,
+				FAB0CAFE248FCEFB00948D65 /* Statistic.swift in Sources */,
+				FAB0CAF6248FA62600948D65 /* Team.swift in Sources */,
+				FAB0CB0424924E2A00948D65 /* TeamStatisticVC.swift in Sources */,
+				FAB0CAF4248FA49B00948D65 /* TeamsData.swift in Sources */,
+				FAB0CAF9248FBB2500948D65 /* TeamsTableViewCell.swift in Sources */,
+				FAB0CAE7248BD51900948D65 /* ForgotPassVC.swift in Sources */,
+				FAB0CAFC248FCEEE00948D65 /* StatisticData.swift in Sources */,
+				FAB0CAE5248BD4B100948D65 /* SignInVC.swift in Sources */,
+				FAB0CAF2248FA25C00948D65 /* NetworkManager.swift in Sources */,
+				FAB0CAEE248BE0C900948D65 /* FirebaseAuthManager.swift in Sources */,
+				FAB0CAC6248BCCF300948D65 /* AppDelegate.swift in Sources */,
+				FAB0CB0224924D6500948D65 /* TeamInfoVC.swift in Sources */,
+				FAB0CAE3248BD49800948D65 /* SignUpVC.swift in Sources */,
+				FAB0CAC8248BCCF300948D65 /* SceneDelegate.swift in Sources */,
+				FAB0CAE9248BD61E00948D65 /* Utils.swift in Sources */,
+				FAB0CAEB248BDE5300948D65 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAB0CACB248BCCF300948D65 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAB0CACC248BCCF300948D65 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAB0CAD3248BCCF800948D65 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAB0CAD4248BCCF800948D65 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAB0CAD7248BCCF800948D65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAB0CAD8248BCCF800948D65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAB0CADA248BCCF800948D65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5509D0031B07BBA10B02EB2 /* Pods-HomeWork 11.2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7N9NLX8536;
+				INFOPLIST_FILE = "HomeWork 11.2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ITEALessons.HomeWork-11-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAB0CADB248BCCF800948D65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BA7611722D875699DD2FE77 /* Pods-HomeWork 11.2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7N9NLX8536;
+				INFOPLIST_FILE = "HomeWork 11.2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ITEALessons.HomeWork-11-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAB0CABD248BCCF200948D65 /* Build configuration list for PBXProject "HomeWork 11.2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB0CAD7248BCCF800948D65 /* Debug */,
+				FAB0CAD8248BCCF800948D65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAB0CAD9248BCCF800948D65 /* Build configuration list for PBXNativeTarget "HomeWork 11.2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB0CADA248BCCF800948D65 /* Debug */,
+				FAB0CADB248BCCF800948D65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FAB0CACE248BCCF300948D65 /* HomeWork_11_2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FAB0CACF248BCCF300948D65 /* HomeWork_11_2.xcdatamodel */,
+			);
+			currentVersion = FAB0CACF248BCCF300948D65 /* HomeWork_11_2.xcdatamodel */;
+			path = HomeWork_11_2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FAB0CABA248BCCF200948D65 /* Project object */;
+}

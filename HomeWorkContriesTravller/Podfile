@@ -1,0 +1,17 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '13.0'
+
+target 'HomeWorkContriesTravller' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  pod 'Alamofire', '~> 5.2'
+  pod 'FirebaseUI/Auth'
+  pod 'SVProgressHUD'
+  pod 'iOSDropDown'
+  pod 'DropDown', "2.3.13"
+  pod "FlagPhoneNumber"
+  pod 'Firebase/Firestore'
+  pod 'Firebase/Storage'
+
+end

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>710972624872-q0plu5a0546le0smmkm92750sm42c882.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.710972624872-q0plu5a0546le0smmkm92750sm42c882</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBDBdAxZloiKzYYfFA-P7QpDUsy_SRf4VQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>710972624872</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>ITEALessons.HomeWorkContriesTravller</string>
+	<key>PROJECT_ID</key>
+	<string>homeworkcontriestravller</string>
+	<key>STORAGE_BUCKET</key>
+	<string>homeworkcontriestravller.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:710972624872:ios:05e30598bd891aa1731e5d</string>
+	<key>DATABASE_URL</key>
+	<string>https://homeworkcontriestravller.firebaseio.com</string>
+</dict>
+</plist>
