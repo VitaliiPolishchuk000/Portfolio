@@ -24,6 +24,7 @@
 		FAE24CC62546D82400F59C5D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE24CC52546D82400F59C5D /* Constants.swift */; };
 		FAE24CD02549679600F59C5D /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE24CCF2549679600F59C5D /* UITableView+Extension.swift */; };
 		FAE24CDB2552CEEC00F59C5D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE24CDA2552CEEC00F59C5D /* MainViewController.swift */; };
+		FAFDB1402566E8DD003079FC /* StatisticByCountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFDB13F2566E8DD003079FC /* StatisticByCountryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		FAE24CC52546D82400F59C5D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		FAE24CCF2549679600F59C5D /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
 		FAE24CDA2552CEEC00F59C5D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		FAFDB13F2566E8DD003079FC /* StatisticByCountryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticByCountryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 			children = (
 				FAC0D6A4252316AA002D1DE6 /* SplashViewController.swift */,
 				FAE24CDA2552CEEC00F59C5D /* MainViewController.swift */,
+				FAFDB13F2566E8DD003079FC /* StatisticByCountryViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 				FAC0D6BC25231AE2002D1DE6 /* NetworkHelpers.swift in Sources */,
 				FAE24CBC2546D02000F59C5D /* MainTableViewCell.swift in Sources */,
 				FAE24CDB2552CEEC00F59C5D /* MainViewController.swift in Sources */,
+				FAFDB1402566E8DD003079FC /* StatisticByCountryViewController.swift in Sources */,
 				FAC0D6BE25231B39002D1DE6 /* NetworkError.swift in Sources */,
 				FAC0D6B8252317EC002D1DE6 /* CovidStatistic.swift in Sources */,
 				FAC0D6A5252316AA002D1DE6 /* SplashViewController.swift in Sources */,

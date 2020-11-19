@@ -26,6 +26,19 @@ struct CovidStatisticElement: Codable {
     var totalDeathsDouble: Double {
         return stringToDoubleFiltered(string: totalDeathsText)
         }
+    var persentOfRecoveredDouble: Double {
+        return persencCount(casesValue: totalCasesDouble, forValue: totalRecoveredDouble )
+        }
+    var persentOfRecoveredText: String {
+        return "\(String(round(1000*persentOfRecoveredDouble)/1000))%"
+    }
+    var persentOfDeathDouble: Double {
+        return persencCount(casesValue: totalCasesDouble, forValue: totalDeathsDouble)
+        }
+    var persentOfDeathText: String {
+        return "\(String(round(1000*persentOfDeathDouble)/1000))%"
+    }
+    
     
     enum CodingKeys: String, CodingKey {
         
@@ -47,6 +60,11 @@ struct CovidStatisticElement: Codable {
             filtredDoubleValue = Double(filtered) ?? 0.0
         }
         return filtredDoubleValue
+    }
+    
+    private func persencCount(casesValue: Double, forValue: Double) -> Double {
+        let resultValue = forValue/casesValue*100
+        return resultValue
     }
 }
 

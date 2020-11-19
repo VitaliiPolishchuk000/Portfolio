@@ -10,7 +10,6 @@ import UIKit
 
 final class SplashViewController: UIViewController {
 
-
     // MARK: - IBOutlets
     @IBOutlet weak var countryTableView: UITableView!
     
@@ -21,7 +20,7 @@ final class SplashViewController: UIViewController {
             presentMainViewContriller()
         }
     }
-    
+
     // MARK: - UIViewController events
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -51,11 +50,11 @@ final class SplashViewController: UIViewController {
     }
     
     private func presentMainViewContriller() {
-        if let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: MainViewController.identifier) as? MainViewController {
-            vc.modalPresentationStyle = .fullScreen
+        if let nc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "MainNavigationController") as? UINavigationController {
+            let vc = nc.viewControllers.first as! MainViewController
             vc.covidStatistic = covidStatistic
             DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
-                self.present(vc, animated: false, completion: nil)
+                (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.changeRootViewController(nc)
             }
         }
     }

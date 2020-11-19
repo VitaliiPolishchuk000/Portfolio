@@ -11,3 +11,11 @@ import Foundation
 //MARK: - identifiers
 
 let kIdentifireMainTableViewCell = "MainTableViewCell"
+
+//MARK: - Keys
+
+enum kStatisticDictSortedKeys: String {
+    case sortedByCases = "sortedByCases"
+    case sortedByRecovered = "sortedByRecovered"
+    case sortedByDeath = "sortedByDeath"
+}
